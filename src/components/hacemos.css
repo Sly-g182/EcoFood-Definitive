@@ -1,0 +1,64 @@
+
+
+#que-hacemos{
+    background-color: rgba(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+
+#que-hacemos button{
+    font-size: 2em;
+}
+
+#que-hacemos .container{
+    padding: 150px 12px;
+}
+
+#que-hacemos h2{
+    margin-top: 0;
+    font-size: 5em;
+}
+
+#que-hacemos h3{
+    font-size: 2.5em;
+}
+
+#que-hacemos p{
+    font-size: 20px;
+}
+
+#que-hacemos .cartas{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.cartas:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url('/src/assets/img/que-hacemos.jpg');
+}
+
+.cartas:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url('img/conectamos.jpg');
+}
+
+.cartas:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url('img/redes-de-alta-velocidad-cuales-son-y-como-funcionan.webp');
+}

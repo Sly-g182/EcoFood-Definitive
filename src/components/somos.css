@@ -1,0 +1,18 @@
+
+
+#somos-ecofood .img-container{display: flex;
+        border-radius: 50px;
+        border: 2px solid black;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        flex-direction: column;
+        height: 80vh;
+        width: 400vh;
+        color: white;
+        background-image:
+        url('/src/assets/img/Quienes-somos.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+        }

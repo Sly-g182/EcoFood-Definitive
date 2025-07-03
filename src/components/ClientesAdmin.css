@@ -1,0 +1,26 @@
+.clientes-admin {
+padding: 2rem;
+max-width: 800px;
+margin: auto;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 1rem;
+}
+
+th, td {
+padding: 0.75rem;
+text-align: left;
+border-bottom: 1px solid #ccc;
+}
+
+.btn-eliminar {
+background-color: #e63946;
+color: white;
+padding: 0.5rem 1rem;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+}

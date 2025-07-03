@@ -1,0 +1,40 @@
+.admins-admin {
+padding: 2rem;
+max-width: 800px;
+margin: auto;
+}
+
+.formulario {
+display: flex;
+gap: 1rem;
+margin-bottom: 1rem;
+}
+
+input {
+padding: 0.5rem;
+flex: 1;
+}
+
+button {
+padding: 0.5rem 1rem;
+border: none;
+background-color: #1d3557;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+}
+
+button:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 0.75rem;
+border-bottom: 1px solid #ccc;
+}
